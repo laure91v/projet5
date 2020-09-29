@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table en chene</title>
+    <link rel="stylesheet" href="../css/panier.css">
+</head>
+
+<body>
+    <header>
+
+        <div id="entete" title="aller à la pag d'accueil">
+            <a title="aller à la page d'accueil" href="../index.html"><img src="../images/orinoco.png"
+                    alt="presentationimagetablechene" class="imagetitle"></a>
+
+            <h1> MON PANIER</h1>
+
+        </div>
+
+
+
+        <br /><br />
+    </header>
+
+    <section>
+        <div id=main>
+            <div id="totaletconfirme">
+                <div id="total">
+                </div><br />
+
+
+            </div><br \>
+
+            <div id="panier">
+            </div>
+
+            <div id=formulaire>
+                <h2> MES INFORMATIONS</h2>
+                <form id="orderForm">
+                    <label for="nom"> NOM :</label><br \>
+                    <input type="text" id="name" required><br \><br \>
+
+                    <label for="prenom"> PRENOM :</label><br \>
+                    <input type="text" id="firstName" required><br \><br \>
+
+
+                    <label for="adresse"> ADRESSE :</label><br \>
+                    <input type="text" id="address" required><br \><br \>
+
+                    <label for="ville"> VILLE :</label><br \>
+                    <input type="text" id="city" required pattern=[A-Za-z]+><br \><br \>
+
+
+                    <label for="adresseEmail"> ADRESSE EMAIL :</label><br \>
+                    <input type="email" id="email" required><br \><br \><br \>
+
+                    <button id="confirme-commande">Passer la commande</button>
+
+
+                </form>
+            </div>
+        </div>
+
+
+    </section>
+    <script src="../js/ajaxget.js"></script>
+    <script src="../js/panier.js"></script>
+</body>
+
+</html>

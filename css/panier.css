@@ -1,0 +1,207 @@
+/* ------header, entete------------------*/
+#entete {
+    width: 100%;
+	height: 100px;
+    background-color:rgb(233, 173, 252) ;
+display: flex;
+justify-content: space-between;
+
+}
+.imagetitle {
+
+    width: 150px;
+    height: 90px;    
+   margin-left: 10px;
+}
+
+h1 {
+    
+    text-align: center;
+    margin-left: center;
+    font-family: Bradley Hand, 'Trebuchet MS', sans-serif, cursive;
+    height : 50px;
+    width: 1000px;
+    font-size: 40px;
+    
+}
+
+a{
+	text-decoration: none;
+    color: violet;
+    font-size: 30px;
+    display:flex;
+    align-items:  center;
+}
+
+
+
+/*----------------------------*/
+img {
+    max-width: 350px;
+    height: auto;
+
+}
+
+#total {
+
+    font-size: 25px;
+    font-weight: bold;
+    
+    
+}
+#confirme-commande {
+    margin-left: center;
+
+}
+#panier {
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+width: 100%;
+
+
+}
+#panier div {
+    box-shadow: 1px 1px 6px silver;
+padding-left: 20px;
+padding-right: 20px;
+padding-bottom: 20px;
+margin-bottom: 10px;
+
+}
+
+#totaletconfirme {
+
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ #principalblock li {
+
+    border-radius : 10px;
+ }
+
+#panier button {
+
+    background-color: rgb(217, 134, 243);
+    font-size: 15px;
+    font-style : italic;
+}
+ /*-------------------------------------------------------------*/
+
+#confirme-commande {
+
+    background-color: rgb(217, 134, 243);
+    font-size: 15px;
+    font-style : italic;
+margin-left: 30%;
+
+}
+
+#formulaire {
+    display: flex;
+    flex-direction: column;
+    
+    background-color: rgb(247, 239, 194);
+    box-sizing: border-box;
+width: 40%;
+border: solid rgb(238, 199, 250) 3px;
+padding: 5px;
+    margin-left: 7%;
+
+
+}
+#formulaire h2 {
+    margin-left: 20%;
+}
+
+@media all and (max-width: 831px) {
+
+    #formulaire {
+
+        width: 45%;
+    }
+    #formulaire h2 {
+        margin-left: 15%;
+    }
+
+}
+@media all and (max-width: 747px) {
+
+    #formulaire {
+
+        width: 50%;
+
+
+    }
+
+}
+
+@media all and (max-width: 669px) {
+
+    #formulaire {
+
+        width: 55%;
+
+    }
+    #formulaire h2 {
+        margin-left: 10%;
+    }
+
+    #confirme-commande {
+
+    margin-left: 20%;
+    
+    }
+
+
+}
+
+@media all and (max-width: 547px) {
+
+    #formulaire {
+
+        width: 60%;
+    }
+    #formulaire h2 {
+        margin-left: 10%;
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 35px;}
+
+}
+
+@media all and (max-width: 487px) {
+
+    #formulaire {
+
+        width: 70%;
+    }
+    #formulaire h2 {
+        margin-left: 5%;
+        font-size: 20px;
+    }
+
+
+}
+@media all and (max-width: 400px) {
+
+#panier div {
+
+    width: 100%;
+}
+#panier img {
+
+    width: 100%;
+}
+h1{
+    font-size: 30px;
+}
+#formulaire {
+
+    width: 80%;
+}
+
+}

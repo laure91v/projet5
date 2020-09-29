@@ -1,0 +1,83 @@
+#entete {
+    width: 100%;
+	height: 100px;
+    background-color:rgb(233, 173, 252) ;
+display: flex;
+justify-content: space-between;
+
+}
+.imagetitle {
+
+    width: 150px;
+    height: 90px;    
+    margin-left: 10px;
+
+}
+h1 {
+    
+    text-align: center;
+    margin-left: center;
+    font-family: Bradley Hand, 'Trebuchet MS', sans-serif, cursive;
+    height : 50px;
+    width: 1000px;
+    font-size: 40px;
+    
+}
+#entete a{
+	text-decoration: none;
+    color: violet;
+    font-size: 30px;
+    display:flex;
+    align-items:  center;
+}
+
+
+H2 {
+    text-align: center;
+}
+
+#confirme-commande {
+
+    background-color: rgb(217, 134, 243);
+    font-size: 15px;
+    font-style : italic;
+}
+h2 span {
+
+    color: orange;
+}
+
+@media all and (max-width: 742px) {
+
+h1 {
+font-size : 35px;
+
+}
+}
+
+@media all and (max-width: 674px) {
+
+    h1 {
+    font-size : 30px;
+    
+    }
+    
+
+
+}
+@media all and (max-width: 393px) {
+
+    h1 {
+    font-size : 25px;
+    
+    }
+
+}
+@media all and (max-width: 355px) {
+
+    h1 {
+    font-size : 20px;
+    
+    }
+
+}
