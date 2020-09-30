@@ -17,10 +17,10 @@ justify-content: space-between;
 h1 {
     
     text-align: center;
-    margin-left: center;
+   
     font-family: Bradley Hand, 'Trebuchet MS', sans-serif, cursive;
     height : 50px;
-    width: 1000px;
+    width: 100%;
     font-size: 40px;
     
 }
@@ -50,8 +50,7 @@ img {
     
 }
 #confirme-commande {
-    margin-left: center;
-
+   
 }
 #panier {
 display: flex;

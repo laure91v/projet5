@@ -16,10 +16,10 @@ justify-content: space-between;
 h1 {
     
     text-align: center;
-    margin-left: center;
+   
     font-family: Bradley Hand, 'Trebuchet MS', sans-serif, cursive;
     height : 50px;
-    width: 1000px;
+    width: 100%;
     font-size: 40px;
     
 }
@@ -36,12 +36,25 @@ H2 {
     text-align: center;
 }
 
-#confirme-commande {
+button {
 
     background-color: rgb(217, 134, 243);
     font-size: 15px;
     font-style : italic;
+    text-decoration: none;
+    
 }
+button a {
+
+    text-decoration: none;
+}
+
+
+
+
+
+
+
 h2 span {
 
     color: orange;

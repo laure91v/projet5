@@ -16,10 +16,10 @@ justify-content: space-between;
 h1 {
     
     text-align: center;
-    margin-left: center;
+    
     font-family: Bradley Hand, 'Trebuchet MS', sans-serif, cursive;
     height : 50px;
-    width: 1000px;
+    width: 100%;
     font-size: 40px;
     
 }
@@ -94,10 +94,10 @@ font-size : 20px;
     h1 {
 
         text-align: center;
-        margin-left: center;
+       
         font-family: Bradley Hand, 'Trebuchet MS', sans-serif, cursive;
         height : 50px;
-        width: 1000px;
+        
         font-size: 35px;
     }
 
@@ -108,10 +108,10 @@ font-size : 20px;
     h1 {
 
         text-align: center;
-        margin-left: center;
+       
         font-family: Bradley Hand, 'Trebuchet MS', sans-serif, cursive;
         height : 50px;
-        width: 1000px;
+        
         font-size: 30px;
     }
 
