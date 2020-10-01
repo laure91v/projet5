@@ -49,7 +49,15 @@ button a {
     text-decoration: none;
 }
 
+#confirme-commande{
 
+    border: 2px black solid;
+    background-color: rgb(217, 134, 243);
+    font-size: 15px;
+    font-style : italic; 
+    text-decoration: none;   
+    padding: 2px 2px 2px 2px;
+}
 
 
 
